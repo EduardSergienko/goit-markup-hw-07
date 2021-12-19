@@ -179,7 +179,7 @@ header {
   background-repeat: no-repeat;
 }
 
-.hero-title {
+.hero__title {
   color: var(--second-complementary-color);
 
   font-weight: 900;
@@ -194,7 +194,7 @@ header {
   margin-bottom: 30px;
 }
 
-.order-button {
+.hero__button {
   background: var(--activity-text-color);
   color: var(--second-complementary-color);
   cursor: pointer;
@@ -213,15 +213,17 @@ header {
 .principle {
   padding-bottom: 0;
 }
-.principle-list .item {
+.principle__item {
   width: 270px;
   display: block;
 }
-.principle-list .item + .item {
-  margin-left: 30px;
+.principle__item {
+  margin-right: 30px;
 }
-
-.principle-list {
+.principle__item:last-child {
+  margin-right: 0;
+}
+.principle__list {
   color: var(--complementary-color);
 
   font-size: 14px;
@@ -229,7 +231,7 @@ header {
 
   display: flex;
 }
-.principle-list .title {
+.principle__title {
   color: var(--main-text-color);
 
   font-weight: bold;
@@ -239,7 +241,7 @@ header {
   margin-bottom: 10px;
 }
 
-.icons-box {
+.decoration {
   display: flex;
   height: 120px;
   margin-bottom: 30px;
@@ -247,33 +249,11 @@ header {
   justify-content: center;
   background-color: #f5f4fa;
 }
-.icons-box .icon {
+.decoration__icon {
   width: 70px;
   height: 70px;
   align-items: center;
 }
-/* .principle-list .item::before {
-  content: "";
-  display: block;
-  height: 120px;
-  background-color: #f5f4fa;
-  background-position: center;
-
-  background-repeat: no-repeat;
-  margin-bottom: 30px;
-}
-.principle-list .item:nth-child(1)::before {
-  background-image: url(../images/svg/item_anten.svg);
-}
-.principle-list .item:nth-child(2)::before {
-  background-image: url(../images/svg/item_clock.svg);
-}
-.principle-list .item:nth-child(3)::before {
-  background-image: url(../images/svg/item_diagrm.svg);
-}
-.principle-list .item:nth-child(4)::before {
-  background-image: url(../images/svg/item_starman.svg);
-} */
 
 /* <!-- What are we doing --> */
 
