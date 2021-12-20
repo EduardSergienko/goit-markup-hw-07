@@ -257,7 +257,7 @@ header {
 
 /* <!-- What are we doing --> */
 
-.we-doing-title {
+.we-doing__title {
   color: var(--main-text-color);
 
   font-weight: bold;
@@ -266,14 +266,16 @@ header {
   text-align: center;
   margin-bottom: 50px;
 }
-.we-doing-list {
+.we-doing__list {
   display: flex;
 }
-.we-doing-list .list + .list {
-  margin-left: 30px;
+.we-doing__item {
+  margin-right: 30px;
 }
-
-.we-doing-list .skils {
+.we-doing__item:last-child {
+  margin-right: 0;
+}
+.img-wrap__skils {
   display: block;
 }
 
@@ -292,7 +294,7 @@ header {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.descript-title {
+.descript__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
