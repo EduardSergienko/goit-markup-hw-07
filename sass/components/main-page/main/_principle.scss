@@ -7,10 +7,11 @@
 }
 .principle__item {
   margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.principle__item:last-child {
-  margin-right: 0;
-}
+
 .principle__list {
   color: var(--complementary-color);
 
