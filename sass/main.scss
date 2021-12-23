@@ -1,6 +1,16 @@
 @import "./utils/variables";
 @import "./utils/custom-normalize";
 @import "./utils/container";
+@import "./utils/section";
 @import "./components/header/logo";
 @import "./components/header/main-nav";
 @import "./components/header/contacts";
+@import "./components/main/hero";
+@import "./components/main/principle";
+@import "./components/main/services";
+@import "./components/main/team";
+@import "./components/main/clients";
+@import "./components/footer/footer-contacts";
+@import "./components/footer/footer-logo";
+@import "./components/footer/joing";
+@import "./components/footer/subscribe";
